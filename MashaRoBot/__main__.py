@@ -74,24 +74,36 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *Masha*
-`I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
+Hey there! my name is **innexia .** If you have any questions on how to use me, Click Help button.
+
+I'm here to make your group management fun and easy[!](https://telegra.ph/file/57dc90b0a574ffdd0ce96.jpg)
+
+i have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
+
+Any issues or need help related to me? join our group [innexia support chat.](https://t.me/InnexiaSupport)
+
+Made with love by [them](https://t.me/TeamInnexia)
+
+Wanna Add me to your Group? Just click the button below!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD MASHA TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
+            text="Help & Commands ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="Support 🔧", url="https://t.me/InnexiaSupport"),
+        InlineKeyboardButton(text="Updates 📢", url="https://t.me/InnexiaUpdates"),
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", callback_data="source_"),
+            text="Logs 📋", url="https://t.me/innexiaGban"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/wastebots"
+            text="innexia Team 💞, url="https://t.me/TeamInnexia"
+    [
+        InlineKeyboardButton(
+            text="Add To Group 👥", url="t.me/innexiaBot?startgroup=true"),
         ),
     ],
 ]
