@@ -1,6 +1,6 @@
 # © @Mr_Dark_Prince
 
-__mod_name__ = "TOOLS"
+__mod_name__ = "Tools"
 
 __help__ = """
 
