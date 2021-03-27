@@ -100,7 +100,7 @@ buttons = [
         InlineKeyboardButton(
             text="Logs 📋", url="https://t.me/innexiaGban"),
         InlineKeyboardButton(
-            text="innexia Team 💞, url="https://t.me/TeamInnexia"
+            text="innexia Team 💞", url="https://t.me/TeamInnexia"
     [
         InlineKeyboardButton(
             text="Add To Group 👥", url="t.me/innexiaBot?startgroup=true"),
