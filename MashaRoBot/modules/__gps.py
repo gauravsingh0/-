@@ -35,10 +35,10 @@ async def _(event):
         await event.reply("I can't find that")
 
 
-__help__ = """
-Hi I can send gps location..
+# __help__ = """
+# Hi I can send gps location..
 
- ❍ /gps <location>*:* Get gps location.
-"""
+# ❍ /gps <location>*:* Get gps location.
+# """
 
-__mod_name__ = "GPS"
+# __mod_name__ = "GPS"
