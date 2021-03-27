@@ -89,28 +89,22 @@ Wanna Add me to your Group? Just click the button below!
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="Help & Commands ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back"),
+        
     ],
-    
-    [
-        InlineKeyboardButton(text="Support 🔧", url="https://t.me/InnexiaSupport"),
-        ),
-        InlineKeyboardButton(text="Updates 📢", url="https://t.me/InnexiaUpdates"),
-    ],
-    
+
     [
         InlineKeyboardButton(
-            text="Logs 📋", url="https://t.me/innexiaGban"),
+            text="Support 🔧", url="t.me/Innexiasupport"
         ),
         InlineKeyboardButton(
-            text="innexia Team 💞", url="https://t.me/TeamInnexia"
+            text="Updates 📢", url="t.me/InnexiaUpdates"
         ),
-   ],
-    
-   [
+    ],
+
+    [
         InlineKeyboardButton(
-            text="Add To Group 👥", url="t.me/innexiaBot?startgroup=true"),
+            text="Add To Group 👥", url="t.me/Innexiabot?startgroup=true"
         ),
     ],
 ]
