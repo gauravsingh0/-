@@ -267,7 +267,7 @@ async def apk(e):
             + app_link
             + "'>View in Play Store</a>"
         )
-        app_details += "\n\n===> Masha <==="
+        app_details += "\n\n===> Innexia <==="
         await e.reply(app_details, link_preview=True, parse_mode="HTML")
     except IndexError:
         await e.reply("No result found in search. Please enter **Valid app name**")
@@ -275,13 +275,13 @@ async def apk(e):
         await e.reply("Exception Occured:- " + str(err))
 
 
-__mod_name__ = "GOOGLE"
+__mod_name__ = "Google"
 
 __help__ = """
  ❍ /google <text>*:* Perform a google search
  ❍ /img <text>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
  ❍ /app <appname>*:* Searches for an app in Play Store and returns its details.
  ❍ /reverse: Does a reverse image search of the media which it was replied to.
- ❍ Masha <query>*:* Masha answers the query
-  💡Ex: `Masha where is India?`
+ ❍ Innexia <query>*:* Innexia answers the query
+  💡Ex: `Innexia where is India?`
 """
