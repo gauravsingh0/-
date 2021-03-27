@@ -18,7 +18,7 @@ async def song(client, message):
         await message.reply("<b>Enter song name❗</b>")
         return ""
     m = await message.reply_text(
-        "Downloading your song,\nPlz wait ⏳️"
+        "i am Finding your song,\nPlz wait ⏳️"
     )
     try:
         r = requests.get(f"https://snobybuddymusic.herokuapp.com/result/?query={args}")
