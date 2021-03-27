@@ -110,7 +110,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-*HELP BUTTONS HERE⤵*"""
+*SETTINGS*
+
+✪ Select one of the settings that you want to change!
+
+✪ Join Support Group @InnexiaSupport!"""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
@@ -201,7 +205,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="❎ CLOSE ❎", callback_data="help_back")]]
                     ),
                 )
 
@@ -396,8 +400,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *MASHA*
-                 \nHere is the [Source Code](https://github.com/Mr-Dark-Prince/MashaRoBot) .""",
+            text=""" Hi..🤗 I'm *Innexia*
+                 \nHere is the [Source Code](https://github.com/MrSammyXD) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
