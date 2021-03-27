@@ -92,16 +92,23 @@ buttons = [
         InlineKeyboardButton(
             text="Help & Commands ❔", callback_data="help_back"),
     ],
+    
     [
         InlineKeyboardButton(text="Support 🔧", url="https://t.me/InnexiaSupport"),
+        ),
         InlineKeyboardButton(text="Updates 📢", url="https://t.me/InnexiaUpdates"),
     ],
+    
     [
         InlineKeyboardButton(
             text="Logs 📋", url="https://t.me/innexiaGban"),
+        ),
         InlineKeyboardButton(
             text="innexia Team 💞", url="https://t.me/TeamInnexia"
-    [
+        ),
+   ],
+    
+   [
         InlineKeyboardButton(
             text="Add To Group 👥", url="t.me/innexiaBot?startgroup=true"),
         ),
