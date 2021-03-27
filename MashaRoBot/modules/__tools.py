@@ -1,10 +1,10 @@
 # © @Mr_Dark_Prince
 
-__mod_name__ = "Tools"
+# __mod_name__ = "Tools"
 
-__help__ = """
+# __help__ = """
 
-*Converts*
- ❍ /encrypt*:* Encrypts The Given Text
- ❍ /decrypt*:* Decrypts Previously Ecrypted Text
-"""
+# *Converts*
+# ❍ /encrypt*:* Encrypts The Given Text
+# ❍ /decrypt*:* Decrypts Previously Ecrypted Text
+# """
