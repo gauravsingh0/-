@@ -7,7 +7,7 @@
 </p>
 
 # Patricia
-Me On Telegram [✨PATRICIA✨](https://t.me/MashaRoBot)
+Me On Telegram [✨PATRICIA✨](https://t.me/Patricia_support)
 This is just a demo bot.. Don't try to add to your group.. Create your own bot 
 ## How To Host
 The easiest way to deploy this Bot
