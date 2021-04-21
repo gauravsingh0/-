@@ -74,15 +74,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there! my name is **innexia .** If you have any questions on how to use me, Click Help button.
+Hey there! my name is **Patricia .** If you have any questions on how to use me, Click Help button.
 
-I'm here to make your group management fun and easy[!](https://telegra.ph/file/57dc90b0a574ffdd0ce96.jpg)
+I'm here to make your group management fun and easy[!](https://telegra.ph/file/443a0e87e701d9f2f9451.jpg)
 
 i have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 
-Any issues or need help related to me? join our group [innexia support chat.](https://t.me/InnexiaSupport)
+Any issues or need help related to me? join our group [PATRICIA SUPPORT GROUP.](https://t.me/Patricia_support)
 
-Made with love by [them](https://t.me/TeamInnexia)
+Made with love by [them](https://t.me/Patricia_support)
 
 Wanna Add me to your Group? Just click the button below!
 """
@@ -95,16 +95,16 @@ buttons = [
 
     [
         InlineKeyboardButton(
-            text="Support 🔧", url="t.me/Innexiasupport"
+            text="Support 🔧", url="t.me/Patricia_support"
         ),
         InlineKeyboardButton(
-            text="Updates 📢", url="t.me/InnexiaUpdates"
+            text="Updates 📢", url="t.me/@Patricia_support"
         ),
     ],
 
     [
         InlineKeyboardButton(
-            text="Add To Group 👥", url="t.me/Innexiabot?startgroup=true"
+            text="Add To Group 👥", url="t.me/Patricia?startgroup=true"
         ),
     ],
 ]
@@ -115,13 +115,8 @@ HELP_STRINGS = """
 
 ✪ Select one of the settings that you want to change!
 
-✪ Join Support Group @InnexiaSupport!"""
+✪ Join Support Group @Patricia_support!"""
 
-
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -366,22 +361,21 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *MASHA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *PATRICIA*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/Mr-Dark-Prince/MashaRoBot).
-                 If you have any question about Masha, let us know at @WasteBots.""",
+                 If you have any question about Masha, let us know at @userbot_supports
+.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="masha_back")
+                    InlineKeyboardButton(text="Back", callback_data="patricia_back")
                  ]
                 ]
             ),
@@ -401,10 +395,10 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Innexia*
-                 \nHere is the [Source Code](https://github.com/MrSammyXD) .""",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=False,
+            text=""" Hi..🤗 I'm *Patricia
+
+*
+
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
