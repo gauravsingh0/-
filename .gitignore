@@ -1,15 +1,15 @@
 # Config files, logs and stuff
-MashaRoBot/modules/helper_funcs/temp.txt
-MashaRoBot/elevated_users.json
-MashaRoBot/config.py
-MashaRoBot/config.ini
+PATRICIA/modules/helper_funcs/temp.txt
+Patricia/elevated_users.json
+Patricia/config.py
+Patricia/config.ini
 log.txt
 kangsticker.png
 updates.txt
 
 # Session files
-MashaRoBot/*.session
-MashaRoBot/*.session-journal
+Patricia/*.session
+Patricia/*.session-journal
 Masha.session-journal
 *.session
 
