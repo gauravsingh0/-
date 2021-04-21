@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/Mr-dark-prince/MashaRoBot/stargazers"><img src="https://telegra.ph/file/70023f0f9de0c34631333.jpg?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    
 </p>
 
 <p align="center">
