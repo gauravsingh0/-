@@ -74,15 +74,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there! my name is **Patricia .** If you have any questions on how to use me, Click Help button.
+Hey there! my name is **𝑷𝒀𝑹𝑨𝑻𝑬𝑺 .** If you have any questions on how to use me, Click Help button.
 
-I'm here to make your group management fun and easy[!](https://telegra.ph/file/443a0e87e701d9f2f9451.jpg)
+I'm here to make your group management fun and easy[!](https://telegra.ph/file/ccbfe11dd80be47648e71.jpg)
 
 i have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 
-Any issues or need help related to me? join our group [PATRICIA SUPPORT GROUP.](https://t.me/Patricia_support)
+Any issues or need help related to me? join our group [♕︎╚«𝐺𝑅𝐵»╝⫸ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓𝐒.](https://t.me/yone_support_official)
 
-Made with love by [them](https://t.me/Patricia_support)
+Made with love by [them](https://t.me/grb_network)
 
 Wanna Add me to your Group? Just click the button below!
 """
@@ -95,16 +95,16 @@ buttons = [
 
     [
         InlineKeyboardButton(
-            text="Support 🔧", url="t.me/Patricia_support"
+            text="🔥 SUPPORT 🔥", url="t.me/yone_support_official"
         ),
         InlineKeyboardButton(
-            text="Updates 📢", url="t.me/@Patricia_support"
+            text="🔥 UPDATES 🔥", url="t.me/grb_network"
         ),
     ],
 
     [
         InlineKeyboardButton(
-            text="Add To Group 👥", url="t.me/Patricia?startgroup=true"
+            text="🔥 ADD TO GROUP 🔥", url="t.me/pyratesX_robot?startgroup=true"
         ),
     ],
 ]
@@ -115,7 +115,7 @@ HELP_STRINGS = """
 
 ✪ Select one of the settings that you want to change!
 
-✪ Join Support Group @Patricia_support!"""
+✪ Join Support Group @yone_support_official!"""
 
 
 IMPORTED = {}
@@ -361,14 +361,14 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *PATRICIA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *𝑷𝒀𝑹𝑨𝑻𝑬𝑺*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 If you have any question about Masha, let us know at @userbot_supports
+                 If you have any question about 𝑷𝒀𝑹𝑨𝑻𝑬𝑺, let us know at @yone_support_official
 .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -395,7 +395,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Patricia
+            text=""" Hi..🤗 I'm *𝑷𝒀𝑹𝑨𝑻𝑬𝑺
 
 *
 
@@ -646,7 +646,7 @@ def donate(update: Update, context: CallbackContext):
         if OWNER_ID != 254318997 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
-                "[here]({})".format(DONATION_LINK),
+                "[here](https://t.me/Black_heart_hacker_xon)".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -691,7 +691,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😎")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
